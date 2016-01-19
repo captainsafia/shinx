@@ -16,7 +16,7 @@ const source = Rx.Observable.fromEvent(watcher, 'create')
 
 const observer = Rx.Observer.create(
     function (value) {
-        callback(value);
+        return value;
     },
     function (error) {
         console.log(error);
