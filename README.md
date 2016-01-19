@@ -1,5 +1,5 @@
 # shinx
-[![Build Status](https://travis-ci.org/captainsafia/hawkeye.svg?branch=master)](https://travis-ci.org/captainsafia/hawkeye)
+[![Build Status](https://travis-ci.org/captainsafia/shinx.svg?branch=master)](https://travis-ci.org/captainsafia/shinx)
 
 ![](http://randompokemon.com/sprites/animated/403.gif)
 
