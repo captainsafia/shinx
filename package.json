@@ -1,0 +1,30 @@
+{
+  "name": "hawkeye",
+  "version": "1.0.0",
+  "description": "Package for watching changes on a Jupyter kernel runtime directory ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/captainsafia/hawkeye.git"
+  },
+  "keywords": [
+    "jupyter",
+    "kernel",
+    "runtime",
+    "watch"
+  ],
+  "author": "Safia Abdalla <safia@safia.rocks>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/captainsafia/hawkeye/issues"
+  },
+  "homepage": "https://github.com/captainsafia/hawkeye#readme",
+  "dependencies": {
+    "hound": "^1.0.4",
+    "jupyter-paths": "^0.3.5",
+    "rx": "^4.0.7"
+  }
+}
