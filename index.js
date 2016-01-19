@@ -10,9 +10,7 @@ function isKernelJSON(filepath) {
 }
 
 const source = Rx.Observable.fromEvent(watcher, 'create')
-                .filter(function(value, index, observable) {
-                    return isKernelJSON(value);
-                });
+                            .filter(isKernelJSON);
 
 const observer = Rx.Observer.create(
     function (value) {
