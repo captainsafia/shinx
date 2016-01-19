@@ -4,7 +4,7 @@
   "description": "Package for watching changes on a Jupyter kernel runtime directory ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha spec/*"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,9 @@
     "hound": "^1.0.4",
     "jupyter-paths": "^0.3.5",
     "rx": "^4.0.7"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
   }
 }
