@@ -14,20 +14,13 @@ const source = Rx.Observable.fromEvent(watcher, 'create')
                     return isKernelJSON(value);
                 });
 
-const published = source.publish();
+const observer = Rx.Observer.create(
+    function (value) {
+        callback(value);
+    },
+    function (error) {
+        console.log(error);
+    }
+);
 
-published.subscribe(createObserver());
-
-const connection = published.connect();
-
-function createObserver(callback) {
-    return Rx.Observer.create(
-            function (value) {
-                callback(value);
-            },
-            function (error) {
-                console.log(error);
-            }
-        );
-}
-
+module.exports = Rx.Subject.create(observer, source);
