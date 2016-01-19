@@ -1,5 +1,5 @@
 {
-  "name": "hawkeye",
+  "name": "shinx",
   "version": "1.0.0",
   "description": "Package for watching changes on a Jupyter kernel runtime directory ",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/captainsafia/hawkeye.git"
+    "url": "git+https://github.com/captainsafia/shinx.git"
   },
   "keywords": [
     "jupyter",
@@ -19,9 +19,9 @@
   "author": "Safia Abdalla <safia@safia.rocks>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/captainsafia/hawkeye/issues"
+    "url": "https://github.com/captainsafia/shinx/issues"
   },
-  "homepage": "https://github.com/captainsafia/hawkeye#readme",
+  "homepage": "https://github.com/captainsafia/shinx#readme",
   "dependencies": {
     "hound": "^1.0.4",
     "jupyter-paths": "^0.3.5",
