@@ -14,13 +14,4 @@ const source = Rx.Observable.fromEvent(watcher, 'create')
                     return isKernelJSON(value);
                 });
 
-const observer = Rx.Observer.create(
-    function (value) {
-        return value;
-    },
-    function (error) {
-        console.log(error);
-    }
-);
-
-module.exports = Rx.Subject.create(observer, source);
+module.exports = source;
