@@ -2,7 +2,7 @@ const Rx = require('rx');
 const hound = require('hound');
 const jp = require('jupyter-paths');
 
-const watcher = hound.watch(jp.paths.runtime[0]);
+const watcher = hound.watch(jp.runtimeDir());
 
 function isKernelJSON(filepath) {
     var name = path.basename(filepath);
